@@ -1,0 +1,15 @@
+{
+  "name": "nats-2023-duplicate-waypoint",
+  "version": "1.0.0",
+  "description": "A reproduction of the duplicate-waypoint bug behind the UK flight planning failure of 28 August 2023",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=23.6"
+  },
+  "scripts": {
+    "start": "node src/main.ts",
+    "test": "node --test test/repro.test.ts"
+  }
+}

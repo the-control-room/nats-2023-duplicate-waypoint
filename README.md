@@ -7,6 +7,9 @@ and its backup both went into maintenance mode in under 20 seconds.
 This repository reproduces the bug with the real flight plan data that NATS
 published in its investigation report.
 
+The video that walks through the search step by step:
+https://www.youtube.com/watch?v=j2lSP_9h4Is
+
 ## Run it
 
 Needs Node.js 23.6 or newer. There are no dependencies.
